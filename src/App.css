@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Futura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+.tag::after {
+  content: "";
+  background-color: #f2ea3e;
+  height: 5px;
+  width: auto;
+  display: block; /* Ensure the pseudo-element is displayed as a block */
+}
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.first-image, .second-image {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.5;
+  /* filter: blur(5px); */
+}
+.second-image {
+  position: absolute;
+  top: 180%;
+  left: 120%;
+  transform: translate(-100%, -100%);
+  border: 1px solid red; /* Optional border for visualization */
+
+}
+
+.third-image, .fourth-image {
+  
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.5;
+  /* filter: blur(5px); */
+}
+.third-image{
+  position: absolute;
+  top: -30%;
+  left: -10%;
+}
+.fourth-image {
+  position: absolute;
+  top: 150%;
+  left: 110%;
+  transform: translate(-100%, -100%);
+  border: 1px solid red; /* Optional border for visualization */
+
+}
+.text{
+  position: absolute;
+  top: 230%;
+  left: 50%;
+  
+}
