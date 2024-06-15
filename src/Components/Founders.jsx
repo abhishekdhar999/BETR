@@ -22,7 +22,7 @@ export default function Founders() {
             <div className='bg-[#d2e5b6] h-16 w-16 rounded-full'></div>
         </div>
         <div className='name my-2'>
-            <h1>MR CHETAN PRADHAN</h1>
+            <h1 className='font-futura'>MR CHETAN PRADHAN</h1>
         </div>
         <div className='underline bg-black h-[0.7px] w-auto my-4'></div>
         <div className='intro'>
