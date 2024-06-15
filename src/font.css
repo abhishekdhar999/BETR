@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Futura';
+    
+    
+        src: url('.././public/Futura\ Md\ BT\ Medium\ 400.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Futura', sans-serif;
+  }
