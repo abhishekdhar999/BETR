@@ -26,7 +26,7 @@ export default function About() {
                 end: "bottom center",
                 scrub: true,
                 toggleActions: 'play none none none',
-                 markers: true, 
+                //  markers: true, 
             }
         })
         ll.fromTo(text3,{x:-400,opacity:0,duration:10},{opacity:1,x:0})

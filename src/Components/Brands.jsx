@@ -28,7 +28,7 @@ export default function Brands() {
                 end: "bottom center",
                 scrub: true,
                 toggleActions: 'play none none none',
-                 markers: true, 
+                //  markers: true, 
             }
         })
         ll.fromTo(line1,{x:-400,opacity:0,duration:10},{opacity:1,x:0})
@@ -41,7 +41,7 @@ export default function Brands() {
                 end: "bottom center",
                 scrub: true,
                 toggleActions: 'play none none none',
-                 markers: true, 
+                //  markers: true, 
             }
         })
         tl.fromTo(line2,{x:-400,opacity:0,duration:10},{opacity:1,x:0})
@@ -53,7 +53,7 @@ export default function Brands() {
                 end: "bottom center",
                 scrub: true,
                 toggleActions: 'play none none none',
-                 markers: true, 
+                //  markers: true, 
             }
         })
         ttl.fromTo(line3,{x:-400,opacity:0,duration:10},{opacity:1,x:0})
