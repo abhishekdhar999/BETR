@@ -3,7 +3,7 @@ import '../App.css';
 
 export default function Founders() {
   return (
-    <div className='all my-24 bg-[#fcfef6]'>
+    <div id='founders' className='all my-24 bg-[#fcfef6]'>
       <div className='heading flex justify-center text-3xl'>
         <h1 className='tag mt-12 font-futura'>MEET THE FOUNDERS</h1>
       </div>

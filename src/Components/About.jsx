@@ -28,7 +28,7 @@ export default function About() {
   }, []);
 
   return (
-    <div ref={aboutRef} className='min-h-screen flex flex-col justify-center items-center py-20 px-0 mb-12'>
+    <div  id='about' ref={aboutRef} className='min-h-screen flex flex-col justify-center items-center py-20 px-0 mb-12'>
       <div className='group'>
         <div className='heading flex justify-center text-center items-center mb-14'>
           <h1 className='heading tag text-2xl md:text-4xl font-futura font-thin'>ABOUT</h1>
