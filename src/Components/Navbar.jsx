@@ -11,7 +11,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <div className='entire-nav my-6'>
+      <div className='entire-nav  fixed w-[100vw] h-36 bg-white'>
         <div className='logo flex justify-center'>
           {/* Use img tag for logo */}
           <Link to={'/'}>
