@@ -17,13 +17,13 @@ export default function LandingPage() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center h-screen bg-[#f2ea3e]">
-      <div className="text-center flex items-center">
-        <h1 className="text-5xl sm:text-7xl font-futura  mx-4">
+    <div className="flex justify-center items-center h-screen bg-[#f2ea3e] p-4 sm:p-8">
+      <div className="text-center flex flex-col sm:flex-row items-center">
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-futura mx-4">
           ON A MISSION TO MAKE
         </h1>
-        <img src={svgImages[currentImageIndex]} alt="SVG Image" className="h-24 sm:h-32 mx-4" />
-        <img src={logo} alt="Logo" className="h-12 sm:h-16 mx-4" />
+        <img src={svgImages[currentImageIndex]} alt="SVG Image" className="h-16 sm:h-24 lg:h-32 mx-4" />
+        <img src={logo} alt="Logo" className="h-8 sm:h-12 lg:h-16 mx-4" />
       </div>
     </div>
   );
