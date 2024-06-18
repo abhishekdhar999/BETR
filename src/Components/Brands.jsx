@@ -31,7 +31,7 @@ export default function Brands() {
   }, []);
 
   return (
-    <div ref={aboutRef} className='all md:my-24 mt-[280px] h-[70vh]'>
+    <div ref={aboutRef} className='all md:my-24 mt-[80px] h-[70vh]'>
       <div className='flex justify-center items-center h-full md:flex-row flex-col'>
         <div className='left mx-24'>
           <div className='year bg-orange-600 w-32 flex justify-center rounded-full p-2 h-10 items-center'>
