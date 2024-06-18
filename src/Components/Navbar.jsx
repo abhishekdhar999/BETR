@@ -14,13 +14,13 @@ export default function Navbar() {
         <div className='navs my-4'>
           <ul className='flex justify-center items-center md:flex-row flex-col '>
             {/* About */}
-            <li className='mx-8 text-gray-500 font-futura'>About</li>
+            <li className='mx-8 text-gray-500 font-futura'>ABOUT.</li>
             {/* Brands */}
-            <li className='mx-8 text-gray-500 font-futura'>Brands</li>
+            <li className='mx-8 text-gray-500 font-futura'>BRANDS.</li>
             {/* Founders */}
-            <li className='mx-8 text-gray-500 font-futura'>Founders</li>
+            <li className='mx-8 text-gray-500 font-futura'>FOUNDERS.</li>
             {/* Contact */}
-            <li className='mx-8 text-gray-500 font-futura'>Contact</li>
+            <li className='mx-8 text-gray-500 font-futura'>CONTACT.</li>
           </ul>
         </div>
       </div>

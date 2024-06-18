@@ -36,9 +36,13 @@ export default function About() {
 
         <div className='texts text-center mx-auto max-w-[82%] my-4'>
           <p className='page text-5xl text-gray-800 font-futura font-light leading-tight'>
-            Established in 2024. <span className='font-bold text-6xl font-futura p-2 text-black'>BETR.</span> IndiaFoodworks is an innovative force poised to make significant strides across diverse F&B sectors.</p>
-            <p className='page text-5xl text-gray-800 font-futura font-light leading-tight'> The company envisions a dynamic presence in multiple</p>
-            <p className='page text-5xl text-gray-800 font-futura font-light leading-tight'> verticals the F&B sector has to offer.
+            Established in 2024. <span className='font-extrabold text-5xl font-futura p-2 text-black'>BETR.</span> IndiaFoodworks is an innovative force poised to make significant strides across diverse F&B sectors.
+          </p>
+          <p className='page text-5xl text-gray-800 font-futura font-light leading-tight'>
+            The company envisions a dynamic presence in multiple
+          </p>
+          <p className='page text-5xl text-gray-800 font-futura font-light leading-tight'>
+            verticals the F&B sector has to offer.
           </p>
         </div>
       </div>
