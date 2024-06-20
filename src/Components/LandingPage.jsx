@@ -18,7 +18,7 @@ export default function LandingPage() {
 
   return (
     <div className="flex justify-center items-center h-screen bg-[#FFB333] md:mt-0 mt-16  p-4 sm:p-8" >
-      <div className="text-center flex flex-col sm:flex-row items-center"  style={{ marginTop: 'calc(50vh - 0rem - 18rem)' }}>
+      <div className="text-center flex flex-col sm:flex-row items-center"  style={{ marginTop: 'calc(50vh - -4rem - 18rem)' }}>
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-futura mx-4">
           ON A MISSION TO MAKE
         </h1>
