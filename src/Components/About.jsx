@@ -20,7 +20,6 @@ export default function About() {
           end: "bottom center",
           scrub: true,
           toggleActions: 'play none none none',
-          // markers: true, 
         }
       });
       ll.fromTo(text3, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 2 });
@@ -28,21 +27,11 @@ export default function About() {
   }, []);
 
   return (
-    <div  id='about' ref={aboutRef} className='min-h-screen flex flex-col justify-center items-center py-20 px-0 mb-12'>
+    <div id='about' ref={aboutRef} className='min-h-screen flex flex-col justify-center items-center py-20 px-4 lg:px-0'>
       <div className='group'>
-        <div className='heading flex justify-center text-center items-center mb-14'>
-          <h1 className='heading tag text-2xl md:text-4xl font-futura font-thin'>ABOUT</h1>
-        </div>
-
-        <div className='texts text-center mx-auto max-w-[90%] md:max-w-[82%] my-4'>
+        <div className='texts text-center mx-auto max-w-[90%] md:max-w-[82%] margin-top: 5rem margin-bottom: 2.5rem'>
           <p className='page text-2xl md:text-5xl text-gray-800 font-futura font-light leading-tight'>
-            Established in 2024. <span className='font-extrabold text-2xl md:text-5xl font-futura p-2 text-black'>BETR.</span> IndiaFoodworks is an innovative force poised to make significant strides across diverse F&B sectors.
-          </p>
-          <p className='page text-2xl md:text-5xl text-gray-800 font-futura font-light leading-tight'>
-            The company envisions a dynamic presence in multiple
-          </p>
-          <p className='page text-2xl md:text-5xl text-gray-800 font-futura font-light leading-tight'>
-            verticals the F&B sector has to offer.
+            Established in 2024. <span className='font-extrabold text-2xl md:text-5xl font-futura p-2 text-black'>BETR.</span> IndiaFoodworks is an innovative force poised to make significant strides across diverse F&B sectors. The company envisions a dynamic presence in multiple verticals the F&B sector has to offer.
           </p>
         </div>
       </div>
