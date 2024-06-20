@@ -36,8 +36,8 @@ export default function Brands() {
   }, []);
 
   return (
-    <div id='brands' ref={aboutRef} className='min-h-screen flex justify-center items-center py-20 px-4 lg:px-0'>
-      <div className='all md:my-24 mt-[80px] h-[70vh]'>
+    <div id='brands' ref={aboutRef} className='min-h-screen flex justify-center items-center py-20 px-4 lg:px-0 overflow-hidden '>
+      <div className='all  md:my-24 md:mt-[80px] mt-[180px] h-[70vh]'>
         <div className='flex justify-center items-center h-full md:flex-row flex-col'>
           <div className='left mx-24'>
             <div className='year bg-orange-600 w-32 flex justify-center rounded-full p-2 h-10 items-center'>

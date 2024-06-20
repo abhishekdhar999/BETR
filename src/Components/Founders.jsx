@@ -3,17 +3,17 @@ import '../App.css';
 
 export default function Founders() {
   return (
-    <div id='founders' className='min-h-screen bg-[#b6cf39]'>
-      <div className='all max-w-screen-lg mx-auto px-4 lg:px-0'>
-        <div className="sub-heading flex justify-center items-center mx-0 text-center text-[13px] my-6 max-w-[1200px]">
+    <div id='founders' className=' bg-[#fcf5e8] '>
+      <div className='all p-16 pt-36 px-4 lg:px-0 overflow-hidden'>
+        <div className="sub-heading flex justify-center items-center md:mx-36 mx-auto  text-center text-[13px] my-12 ">
           <p className='font-futura text-2xl md:text-3xl lg:text-3xl xl:text-3xl my-6'>
             Betr India Foodworks is spearheaded by a dynamic trio of co-founders, whose blend of expertise & collective vision fuels the company's trajectory toward success. With a solid foundation laid by the leadership, the company boasts a robust team structure comprising 5 seasoned advisors and a dedicated core team of 15 individuals.
           </p>
         </div>
 
-        <div className='founders flex flex-col md:flex-row justify-center md:justify-start mx-auto md:mx-0 mt-6'>
+        <div className=' flex flex-col md:flex-row  justify-center md:justify-between mx-auto md:mx-24 mt-6 '>
           {/* Founder 1 */}
-          <div className='founder ml-6 my-6 md:w-[32%]'>
+          <div className='founder ml-6 my-6 md:w-[32%] mx-4'>
             {/* Founder Image */}
             <div className='img mb-4'>
               {/* Placeholder for Image */}
@@ -36,7 +36,7 @@ export default function Founders() {
           </div>
           
           {/* Founder 2 */}
-          <div className='founder ml-6 my-6 md:w-[32%]'>
+          <div className='founder ml-6 my-6 md:w-[32%] mx-4 '>
             {/* Founder Image */}
             <div className='img mb-4'>
               {/* Placeholder for Image */}
@@ -62,7 +62,7 @@ export default function Founders() {
           </div>
 
           {/* Founder 3 */}
-          <div className='founder ml-6 my-6 md:w-[32%]'>
+          <div className='founder ml-6 my-6 md:w-[32%] mx-4'>
             {/* Founder Image */}
             <div className='img mb-4'>
               {/* Placeholder for Image */}

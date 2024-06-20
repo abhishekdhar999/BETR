@@ -27,7 +27,7 @@ export default function About() {
   }, []);
 
   return (
-    <div id='about' ref={aboutRef} className='min-h-screen flex flex-col justify-center items-center py-20 px-4 lg:px-0'>
+    <div id='about' ref={aboutRef} className='min-h-screen flex flex-col justify-center items-center py-20 px-4 lg:px-0 bg-[#fcf5e8] pt-40'>
       <div className='group'>
         <div className='texts text-center mx-auto max-w-[90%] md:max-w-[82%] margin-top: 5rem margin-bottom: 2.5rem'>
           <p className='page text-2xl md:text-5xl text-gray-800 font-futura font-light leading-tight'>
@@ -36,8 +36,8 @@ export default function About() {
         </div>
       </div>
 
-      <div className='detail flex justify-center items-center text-base md:text-lg my-12 h-auto'>
-        <h1 className='w-auto font-futura font-light'>
+      <div className='detail flex justify-center items-center text-[10px] sm:text-lg my-12 h-auto w-auto overflow-hidden'>
+        <h1 className='w-auto font-futura font-light '>
           QSR.&nbsp;&nbsp;&nbsp;&nbsp;CDR.&nbsp;&nbsp;&nbsp;&nbsp;RETAIL.&nbsp;&nbsp;&nbsp;&nbsp;UQR.&nbsp;&nbsp;&nbsp;&nbsp;FINEDINE.&nbsp;&nbsp;&nbsp;&nbsp;D2C.
         </h1>
       </div>

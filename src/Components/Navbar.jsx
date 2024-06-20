@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className='entire-nav fixed w-full h-36 bg-white top-0 left-0'>
+      <div className='entire-nav fixed   md:h-36 w-screen   bg-white top-0 left-0  sm:mb-0  '>
         <div className='logo flex justify-center pt-2'>
           <Link to={'/'}>
             <img src={Logo} alt="BETR Logo" className='w-20 h-20' />
