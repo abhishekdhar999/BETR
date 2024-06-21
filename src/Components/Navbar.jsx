@@ -21,41 +21,40 @@ export default function Navbar() {
 
   return (
     <>
-      <div className='entire-nav fixed  z-50  md:h-36 w-screen   bg-white top-0 left-0  sm:mb-0  '>
+      <div className='entire-nav fixed z-50 md:h-36 w-screen bg-white top-0 left-0'>
         <div className='logo flex justify-center pt-2'>
           <Link to={'/'}>
-            <img src={Logo} alt="BETR Logo" className='w-20 h-20' />
+            <img src={Logo} alt="BETR Logo" className='w-16 h-16 md:w-20 md:h-20' />
           </Link>
         </div>
         <div className='navs my-2 relative'>
-          <ul className='flex justify-center items-center md:flex-row flex-col '>
+          <ul className='flex justify-center items-center flex-wrap'>
             <li
               onClick={() => scrollToSection('about')}
-              className={`mx-8 text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'about' ? 'text-yellow-500' : ''}`}
+              className={`mx-1 md:mx-8 my-1 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'about' ? 'text-yellow-500' : ''}`}
             >
               ABOUT.
             </li>
             <li
               onClick={() => scrollToSection('brands')}
-              className={`mx-8 text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'brands' ? 'text-yellow-500' : ''}`}
+              className={`mx-1 md:mx-8 my-1 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'brands' ? 'text-yellow-500' : ''}`}
             >
               BRANDS.
             </li>
             <li
               onClick={() => scrollToSection('founders')}
-              className={`mx-8 text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'founders' ? 'text-yellow-500' : ''}`}
+              className={`mx-1 md:mx-8 my-1 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'founders' ? 'text-yellow-500' : ''}`}
             >
               FOUNDERS.
             </li>
             <li
               onClick={() => scrollToSection('contact')}
-              className={`mx-8 text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'contact' ? 'text-yellow-500' : ''}`}
+              className={`mx-1 md:mx-8 my-1 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'contact' ? 'text-yellow-500' : ''}`}
             >
               CONTACT.
             </li>
           </ul>
           {/* Underline */}
-         
         </div>
       </div>
     </>

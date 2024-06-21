@@ -40,13 +40,11 @@ export default function Brands() {
       <div className='all  md:my-24 md:mt-[80px] mt-[180px] h-[70vh]'>
         <div className='flex justify-center items-center h-full md:flex-row flex-col'>
           <div className='left mx-24'>
-            <div className='year bg-orange-600 w-32 flex justify-center rounded-full p-2 h-10 items-center'>
-              <h1 className='text-white text-xl font-futura' style={{ fontWeight: 100 }}>YEAR 2024</h1>
-            </div>
+          
             <div className='heading'>
               <p className='outlets text-6xl md:text-8xl font-futura' style={{ fontWeight: 100 }}>12+ OUTLETS</p>
             </div>
-            <div className='bg-[#f2ea3e] h-1 mx-0'></div>
+            
             <div className='sub-heading mx-2 my-2'>
               <p className='texts1 text-2xl md:text-4xl text-gray-500 font-futura' style={{ fontWeight: 100 }}>LAUNCHING MINDFUL</p>
               <p className='texts2 text-2xl md:text-4xl text-gray-500 font-futura' style={{ fontWeight: 100 }}>FOOD BRANDS</p>
