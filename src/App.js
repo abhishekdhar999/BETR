@@ -22,6 +22,7 @@ function App() {
   <Route path='/brands' element={ <Brands/>}></Route>
   <Route path='/founders' element={ <Founders/>}></Route>
   <Route path='/footer' element={<Footer/>}></Route>
+  <Route path='/landing' element={<LandingPage/>}></Route>
   </Routes>
   
    

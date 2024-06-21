@@ -42,7 +42,7 @@
 
 .tag::after {
   content: "";
-  background-color: #f2ea3e;
+  background-color: #fffffe00;
   height: 5px;
   width: auto;
   display: block; /* Ensure the pseudo-element is displayed as a block */

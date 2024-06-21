@@ -21,11 +21,12 @@ export default function Navbar() {
 
   return (
     <>
+    <div className='chirag'>
       <div className='entire-nav fixed z-50 md:h-36 w-screen bg-white top-0 left-0'>
         <div className='logo flex justify-center pt-2'>
-          <Link to={'/'}>
-            <img src={Logo} alt="BETR Logo" className='w-16 h-16 md:w-20 md:h-20' />
-          </Link>
+        
+            <img src={Logo} alt="BETR Logo" className='w-16 h-16 md:w-20 md:h-20' onClick={() => scrollToSection('landing')} />
+         
         </div>
         <div className='navs my-2 relative'>
           <ul className='flex justify-center items-center flex-wrap'>
@@ -56,6 +57,7 @@ export default function Navbar() {
           </ul>
           {/* Underline */}
         </div>
+      </div>
       </div>
     </>
   );
