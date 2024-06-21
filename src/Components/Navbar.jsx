@@ -31,25 +31,25 @@ export default function Navbar() {
           <ul className='flex justify-center items-center flex-wrap'>
             <li
               onClick={() => scrollToSection('about')}
-              className={`mx-1 md:mx-8 my-1 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'about' ? 'text-yellow-500' : ''}`}
+              className={`mx-2 md:mx-8 my-2 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'about' ? 'text-yellow-500' : ''}`}
             >
               ABOUT.
             </li>
             <li
               onClick={() => scrollToSection('brands')}
-              className={`mx-1 md:mx-8 my-1 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'brands' ? 'text-yellow-500' : ''}`}
+              className={`mx-2 md:mx-8 my-2 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'brands' ? 'text-yellow-500' : ''}`}
             >
               BRANDS.
             </li>
             <li
               onClick={() => scrollToSection('founders')}
-              className={`mx-1 md:mx-8 my-1 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'founders' ? 'text-yellow-500' : ''}`}
+              className={`mx-2 md:mx-8 my-2 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'founders' ? 'text-yellow-500' : ''}`}
             >
               FOUNDERS.
             </li>
             <li
               onClick={() => scrollToSection('contact')}
-              className={`mx-1 md:mx-8 my-1 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'contact' ? 'text-yellow-500' : ''}`}
+              className={`mx-2 md:mx-8 my-2 md:my-2 text-sm md:text-base text-gray-500 font-futura hover:cursor-pointer ${activeLink === 'contact' ? 'text-yellow-500' : ''}`}
             >
               CONTACT.
             </li>
