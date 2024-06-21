@@ -27,7 +27,7 @@ export default function About() {
   }, []);
 
   return (
-    <div id='about' ref={aboutRef} className='min-h-screen flex flex-col justify-center items-center py-20 px-4 lg:px-0 bg-[#fcf5e8] md:pt-40 pt-52'>
+    <div id='about' ref={aboutRef} className='min-h-screen flex flex-col justify-center items-center py-5 px-4 lg:px-0 bg-[#fcf5e8] md:pt-48 pt-60 my-5'>
       <div className='group'>
         <div className='texts text-center mx-auto max-w-[90%] md:max-w-[82%] margin-top: 5rem margin-bottom: 2.5rem'>
           <p className='page text-2xl md:text-5xl text-gray-800 font-futura font-light leading-tight'>
