@@ -97,21 +97,25 @@
   left: 50%;
   
 }
-@media (max-width: 768px) {
-  #brands .all {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
+@media (max-width: 767px) {
   #brands .left {
-    order: 2;
-    text-align: center;
-    margin: 0;
+    order: 1; /* Ensures text is above the image on mobile */
   }
 
   #brands .right {
-    order: 1;
-    margin-bottom: 2rem;
+    order: 2; /* Ensures image is below the text on mobile */
   }
+
+  #brands .brand-image {
+    margin-top: 20px; /* Optional: Adjust as needed for spacing */
+  }
+  #brands .sub-heading .texts1,
+  #brands .sub-heading .texts2,
+  #brands .sub-heading .texts3 {
+    font-size: 1.25rem; }
+    #brands .heading .outlets {
+      font-size: 3rem; /* Adjust this value as needed */
+    }
 }
+
+
